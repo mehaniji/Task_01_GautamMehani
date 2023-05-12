@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task1</title>
+</head>
+<style>
+   
+    .main{
+        display: block;
+        padding: 9px 4px;
+        padding-left: 3px;
+        margin-left:500px ;
+        margin-top: 66px;
+        border: 25px solid rgb(222, 196, 247);
+        
+        width: 444px;
+        margin: auto;
+       
+    }
+    td input{
+        padding:13px ; 
+        margin: 8px;
+        border-radius: 6px;
+        border: 1px solid rgb(237, 219, 237);
+        background-color: rgba(221, 195, 246, 0.464);
+    }
+    td textarea{
+        margin: 8px;
+        border-radius: 6px;
+        border: 1px solid rgb(237, 219, 237);
+        background-color: rgba(200, 150, 247, 0.464);
+    }
+    td{
+        color: rgb(125, 40, 203);
+    }
+    .heading{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+       font-weight: lighter;
+        font-style:normal;
+        color: blueviolet;
+        position: relative;
+        right: 105px;
+    }
+     pre input{
+        border:1px solid  rgb(67, 4, 126) ;
+        border-radius: 44px;
+        padding: 33px;
+        padding-top:11px ;
+        padding-bottom: 11px;
+        background-color: blue;
+        color: azure;
+       
+    }
+    .end{
+        position: relative;
+        right: 103px;
+        color: rgb(5, 209, 141);
+        font-family: cursive;
+    }
+    ::placeholder{
+        color:blueviolet;
+    }
+
+    body{
+      
+    }
+</style>
+<body ><div class="main">
+    <center ><h1 class="heading"> Get In Touch </h1>
+    <table>
+        <tr>
+            <td> <input type="text"  placeholder="First Name" id="1"></td>
+            <td> <input type="text"  placeholder="Last Name" id="1"></td>
+           
+        </tr>
+        <tr>
+            <td> <input type="text"  placeholder="Email" id="1"></td>
+            <td> <input type="number"  placeholder="Phone" id="1"></td>
+        </tr>
+        <tr>
+            <td  colspan="2" ><textarea placeholder="Address" name="" id="2" cols="50" rows="2"></textarea>  </td>
+        </tr>
+        <tr>
+            <td colspan="2"> <textarea placeholder="Type your message" name="" id="2" cols="50" rows="4"></textarea> </td>
+        </tr>
+    </table>
+         <pre><input type="submit"  id="3"></pre>
+         <p class="end"> Thanks your submitting!</p>
+         </p>
+        </center></div>
+
+</body>
+</html>
