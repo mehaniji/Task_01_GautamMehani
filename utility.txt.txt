@@ -1,0 +1,1 @@
+utility funcn that version 1 uses
